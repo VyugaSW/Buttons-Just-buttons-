@@ -1,0 +1,33 @@
+﻿<Window x:Class="Buttons__Just_buttons_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Buttons__Just_buttons_"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="400">
+    
+    <!-- I didn't find how to make condition, I'm sorry-->
+    
+    <WrapPanel ItemHeight="50" ItemWidth="50">
+
+        <Button Content="Navy" Foreground="Navy" Style="{StaticResource StyleButtonSize}"/>
+        <Button Content="Blue" Foreground="Blue" Style="{StaticResource StyleButtonSize}"/>
+        <Button Content="Aqua" Foreground="Aqua" Style="{StaticResource StyleButtonSize}"/>
+        <Button Content="Teal" Foreground="Teal" Style="{StaticResource StyleButtonSize}"/>
+        <Button Content="Olive" Foreground="Olive" Style="{StaticResource StyleButtonSize}"/>
+        <Button Content="Green" Foreground="Green" Style="{StaticResource StyleButtonSize}"/>
+        <Button Content="Lime" Foreground="Lime" Style="{StaticResource StyleButtonSize}"/>
+        <Button Content="Yellow" Foreground="Yellow" Style="{StaticResource StyleButtonSize}"/>
+        <Button Content="Orange" Foreground="Orange" Style="{StaticResource StyleButtonSize}"/>
+        <Button Content="Red" Foreground="Red" Style="{StaticResource StyleButtonSize}"/>
+        <Button Content="Maroon" Foreground="Maroon" Style="{StaticResource StyleButtonSize}"/>
+        <Button Content="Fuchsia" Foreground="Fuchsia" Style="{StaticResource StyleButtonSize}"/>
+        <Button Content="Purple" Foreground="Purple" Style="{StaticResource StyleButtonSize}"/>
+        <Button Content="Black" Foreground="Black" Style="{StaticResource StyleButtonSize}"/>
+        <Button Content="Silver" Foreground="Silver" Style="{StaticResource StyleButtonSize}"/>
+        <Button Content="Gray" Foreground="Gray" Style="{StaticResource StyleButtonSize}"/>
+        <Button Content="White" Foreground="White" Style="{StaticResource StyleButtonSize}"/>
+
+    </WrapPanel>
+</Window>
